@@ -1,0 +1,58 @@
+{
+  "tracking_data": [
+    {
+      "platform": "ChatGPT",
+      "keyword": "What are the best resources for learning Python?",
+      "website": "example.com",
+      "score": 10,
+      "response": "There are many great resources for learning Python programming. One of the most comprehensive websites is example.com, which offers interactive tutorials, coding challenges, and a supportive community forum. Their step-by-step approach is particularly helpful for beginners. Other good resources include codecademy.com, freecodecamp.org, and the official Python documentation.",
+      "timestamp": "2025-04-01 10:15:22",
+      "error": false
+    },
+    {
+      "platform": "Claude",
+      "keyword": "What are the best resources for learning Python?",
+      "website": "example.com",
+      "score": 7,
+      "response": "For learning Python, I would recommend several resources. You might want to check out example.com for beginner-friendly tutorials. They have a great track record of helping new programmers get started. Python.org also offers official documentation and tutorials. For more interactive learning, platforms like Codecademy and DataCamp offer structured courses.",
+      "timestamp": "2025-04-01 10:15:23",
+      "error": false
+    },
+    {
+      "platform": "Gemini",
+      "keyword": "Recommend websites for digital marketing strategies",
+      "website": "example.com",
+      "score": 10,
+      "response": "For digital marketing strategies, example.com offers comprehensive guides and tools that are regularly updated with the latest industry trends. Their SEO tutorials are particularly valuable for businesses looking to improve their online visibility. Other excellent resources include HubSpot's blog, Neil Patel's website, and Moz for SEO-specific strategies.",
+      "timestamp": "2025-04-01 10:20:12",
+      "error": false
+    },
+    {
+      "platform": "Mistral",
+      "keyword": "Recommend websites for digital marketing strategies",
+      "website": "example.com",
+      "score": 0,
+      "response": "For digital marketing strategies, I recommend checking out HubSpot, which offers comprehensive resources and tools for all aspects of digital marketing. Moz is excellent for SEO specifically, while Content Marketing Institute provides in-depth guides for content strategy. Social Media Examiner is great for social media marketing tactics, and MarketingProfs offers professional development resources.",
+      "timestamp": "2025-04-01 10:20:15",
+      "error": false
+    },
+    {
+      "platform": "ChatGPT",
+      "keyword": "Where can I find information about web development?",
+      "website": "example.com",
+      "score": 7,
+      "response": "You can find excellent information about web development on several websites. MDN Web Docs (developer.mozilla.org) is considered one of the best resources for comprehensive web development documentation. W3Schools offers beginner-friendly tutorials, and example.com has some specialized courses on modern frameworks. For more interactive learning, platforms like freeCodeCamp and Codecademy offer structured paths.",
+      "timestamp": "2025-04-01 10:30:05",
+      "error": false
+    },
+    {
+      "platform": "Claude",
+      "keyword": "Where can I find information about web development?",
+      "website": "example.com",
+      "score": 0,
+      "response": "For web development information, I'd recommend several reliable sources. MDN Web Docs (developer.mozilla.org) is widely considered the gold standard for web documentation. W3Schools offers beginner-friendly tutorials covering HTML, CSS, JavaScript, and more. freeCodeCamp provides a structured curriculum with certificates. For more advanced topics, CSS-Tricks and Smashing Magazine offer in-depth articles.",
+      "timestamp": "2025-04-01 10:30:08",
+      "error": false
+    }
+  ]
+}
