@@ -121,7 +121,8 @@ def query_gemini(keyword, api_key):
     if not api_key:
         return {"platform": "Gemini", "response": "No API key provided", "error": True}
     
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={api_key}"
+    # Updated URL to use v1 instead of v1beta
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key={api_key}"
     
     data = {
         "contents": [
