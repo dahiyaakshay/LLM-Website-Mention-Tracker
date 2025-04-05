@@ -60,7 +60,7 @@ def query_openai(keyword, api_key):
     }
     
     data = {
-        "model": "gpt-3.5-turbo",  # Changed from gpt-4 to gpt-3.5-turbo
+        "model": "gpt-4o-mini",  # Updated to use gpt-4o-mini which your API key can access
         "messages": [{"role": "user", "content": keyword}],
         "temperature": 0.7
     }
