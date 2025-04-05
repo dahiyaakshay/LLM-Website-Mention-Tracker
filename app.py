@@ -89,11 +89,11 @@ def query_claude(keyword, api_key):
     headers = {
         "Content-Type": "application/json",
         "x-api-key": api_key,
-        "anthropic-version": "2023-06-01"
+        "anthropic-version": "2023-06-01"  # This might need updating but the older version often still works
     }
     
     data = {
-        "model": "claude-3-opus-20240229",
+        "model": "claude-3-7-sonnet-20250219",  # Updated to Claude 3.7 Sonnet
         "max_tokens": 1000,
         "messages": [
             {"role": "user", "content": keyword}
