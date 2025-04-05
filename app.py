@@ -60,10 +60,10 @@ def query_openai(keyword, api_key):
     }
     
     data = {
-        "model": "gpt-4o-mini",  # Updated to use gpt-4o-mini which your API key can access
-        "messages": [{"role": "user", "content": keyword}],
-        "temperature": 0.7
-    }
+    "model": "gpt-3.5-turbo",
+    "messages": [{"role": "user", "content": keyword}],
+    "temperature": 0.7
+}
     
     try:
         response = requests.post(
