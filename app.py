@@ -60,7 +60,7 @@ def query_openai(keyword, api_key):
     }
     
     data = {
-        "model": "gpt-4",
+        "model": "gpt-3.5-turbo",  # Changed from gpt-4 to gpt-3.5-turbo
         "messages": [{"role": "user", "content": keyword}],
         "temperature": 0.7
     }
