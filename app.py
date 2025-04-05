@@ -60,10 +60,11 @@ def query_openai(keyword, api_key):
     }
     
     data = {
-    "model": "gpt-3.5-turbo",
-    "messages": [{"role": "user", "content": keyword}],
-    "temperature": 0.7
-}
+        "model": "gpt-4o-mini",  # Matches your curl command
+        "store": True,           # Added this from your curl command
+        "messages": [{"role": "user", "content": keyword}],
+        "temperature": 0.7
+    }
     
     try:
         response = requests.post(
